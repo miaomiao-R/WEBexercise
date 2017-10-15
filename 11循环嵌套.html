@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>循环嵌套</title>
+    <meta name="keywords" content="content">
+    <meta name="discription" content="content">
+</head>
+<body>
+    <script>
+        for(var a=1;a<=5;a++){
+            document.write(a+"<br/>")
+            for(var b=1;b<=5;b++){
+                document.write(b+'<br/>')
+            };
+            document.write("<hr/>")
+        };
+        var m=1,j=1;
+        for(m=1;m<=9;m++){
+            for(j=1;j<=m;j++){
+                document.write(j+"*"+m+"="+m*j+"&nbsp");
+            };
+            document.write("<br/>")
+        };
+    </script>
+</body>
+</html>
